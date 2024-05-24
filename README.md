@@ -10,6 +10,7 @@ Bem-vindo ao portfólio fictício do Raposo, uma raposa talentosa que deseja mos
 - [Sobre](#sobre)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Funcionalidades](#funcionalidades)
+- [Design](#Design)
 - [Contato](#contato)
 
 ## 📖 Sobre
@@ -21,11 +22,15 @@ O portfólio do Raposo é um site de uma página que exibe informações sobre a
 - HTML5
 - CSS3
 
+## 🎨 Design
+
+O design do site foi criado utilizando o [Figma](https://www.figma.com/), uma ferramenta de design colaborativo que facilita a criação e o compartilhamento de interfaces de usuário. Ele foi desenvolvido seguindo os padrões de UI Design para garantir uma experiência do usuário agradável e intuitiva.
+
 ## ✨ Funcionalidades
 
 - **Seções de Navegação:** Inclui seções para "Experiência", "Formação", e "Contato".
 - **Layout Responsivo:** O site é responsivo e funciona bem em dispositivos móveis e desktops.
-- **Estilização Customizada:** Utiliza CSS para estilização personalizada, incluindo animações e transições suaves.
+- **Estilização Customizada:** Utiliza CSS para estilização personalizada, incluindo transições suaves.
 
 ## 📞 Contato
 
@@ -33,4 +38,4 @@ Se você quiser saber mais sobre este projeto ou entrar em contato comigo, você
 
 - **Email:** [joao.guedes5567@gmail.com](mailto:joao.guedes5567@gmail.com)
 - **LinkedIn:** [João Pedro Pereira](www.linkedin.com/in/joão-pedro-pereira-guedes-83a46630b)
-- **GitHub:** [seu-usuario](https://github.com/JotaPePG)
+- **GitHub:** [JotaPePG](https://github.com/JotaPePG)
