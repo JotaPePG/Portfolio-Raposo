@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.experiencia {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+}
+
+.experiencia .subtitulo {
+  color: #b8b8b8;
+}
+
+.experiencia-texto {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  max-width: 50ch;
+  color: #525252;
+  margin-bottom: 60px;
+}
+
+.experiencia-texto strong {
+  color: #3d3d3d;
+}
+
+.empresa {
+  display: grid;
+  gap: 10px 40px;
+  grid-template-columns: 3fr 2fr;
+  background-color: #f0f0f0;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 4px;
+  position: relative;
+  box-shadow: inset 0 0 0 2px #e0e0e0;
+}
+
+.empresa::before {
+  content: "";
+  width: 5px;
+  height: 44px;
+  background: linear-gradient(45deg, #f2c41f, #fad966);
+  position: absolute;
+  display: block;
+  top: 10px;
+  left: -5px;
+}
+
+.empresa-ano {
+  position: absolute;
+  left: -60px;
+  top: 20px;
+  color: #525252;
+  font-weight: 700;
+}
+
+.empresa-titulo,
+.empresa-cargo {
+  font-size: 1.25rem;
+}
+
+.empresa-texto {
+  font-size: 1rem;
+  line-height: 1.375rem;
+  color: #525252;
+}
+
+.empresa-habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: start;
+}
+
+.empresa-habilidades li {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px 10px;
+  background: linear-gradient(-90deg, #f2c41f, #fad966);
+  border-radius: 4px;
+}
+
+@media (max-width: 800px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    justify-items: end;
+  }
+  .experiencia-texto {
+    font-size: 1.25rem;
+    text-align: end;
+    margin-left: auto;
+    max-width: 55ch;
+  }
+  .empresa {
+    margin-top: 40px;
+  }
+  .empresa-ano {
+    left: 10px;
+    top: -16px;
+  }
+}
+@media (max-width: 500px) {
+  .experiencia .subtitulo {
+    font-size: 2.5rem;
+  }
+  .experiencia {
+    justify-items: center;
+  }
+  .experiencia-texto {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+}
+@media (max-width: 400px) {
+  .empresa-texto {
+    grid-column: 1 / -1;
+  }
+  .empresa-habilidades {
+    grid-column: 1 / -1;
+  }
+}

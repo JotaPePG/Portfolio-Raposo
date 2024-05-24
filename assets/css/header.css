@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.header-menu a {
+  font-size: 1.25rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  color: #141414;
+  display: block;
+}
+
+@media (max-width: 800px) {
+  .header {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .header-menu a {
+    background-color: #e0e0e0;
+    border-radius: 4px;
+  }
+}
