@@ -39,3 +39,7 @@ Se você quiser saber mais sobre este projeto ou entrar em contato comigo, você
 - **Email:** [joao.guedes5567@gmail.com](mailto:joao.guedes5567@gmail.com)
 - **LinkedIn:** [João Pedro Pereira](www.linkedin.com/in/joão-pedro-pereira-guedes-83a46630b)
 - **GitHub:** [JotaPePG](https://github.com/JotaPePG)
+
+## 🧑🏻‍💻 Link do App
+
+- **GitHub Pages** [Aqui!](https://jotapepg.github.io/Portfolio-Raposo/)
